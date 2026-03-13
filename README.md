@@ -1,5 +1,6 @@
 ## **Natural Language Processing for Sentiment Classification: Tweet Emotion Recognition via Bidirectional LSTMs**
 
+
 ### **Project Overview**
 
 The objective of this project was to develop a Natural Language Processing (NLP) model capable of accurately classifying the emotional sentiment of short-form text (tweets). Utilizing the **Tweet Emotion Dataset** from Hugging Face, I implemented a deep learning architecture based on **Bidirectional Long Short-Term Memory (LSTM)** networks using TensorFlow. The project successfully automated the detection of six distinct emotions—sadness, joy, love, anger, fear, and surprise—achieving a **test accuracy of 87.31%**.
@@ -37,6 +38,7 @@ I designed a **Sequential Deep Learning Model** optimized for sequential data:
 * **Validation Accuracy:** Peak of ~88.60% during training.
 * **Test Accuracy:** 87.31%
 * **Confusion Matrix:** Utilized to evaluate per-class performance and identify "confusion pairs" (e.g., misclassifying "love" as "joy").
+<img width="1251" height="506" alt="Screen Shot 2026-03-13 at 20 44 50" src="https://github.com/user-attachments/assets/7a28a61f-a4d5-49aa-acda-946c296919cf" />
 
 ### **Conclusion**
 
