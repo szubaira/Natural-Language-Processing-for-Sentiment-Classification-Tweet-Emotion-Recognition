@@ -27,7 +27,8 @@ The analysis leveraged the **Tweet Emotion Dataset**, a collection of thousands 
 
 I designed a **Sequential Deep Learning Model** optimized for sequential data:
 
-* **Architecture:** * **Embedding Layer:** Mapped tokens into a 16-dimensional continuous vector space.
+* **Architecture:**
+* **Embedding Layer:** Mapped tokens into a 16-dimensional continuous vector space.
 * **Bidirectional LSTM Layers:** Two stacked Bidirectional LSTM layers (20 units each) were used to capture dependencies from both the beginning and end of each tweet.
 * **Dense Output Layer:** A 6-unit layer with a **Softmax activation** function to output class probabilities.
 
