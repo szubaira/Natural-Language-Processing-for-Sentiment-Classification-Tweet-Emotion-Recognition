@@ -27,14 +27,14 @@ The analysis leveraged the **Tweet Emotion Dataset**, a collection of thousands 
 
 I designed a **Sequential Deep Learning Model** optimized for sequential data:
 
-* **Architecture:**
+**Architecture:**
 * **Embedding Layer:** Mapped tokens into a 16-dimensional continuous vector space.
 * **Bidirectional LSTM Layers:** Two stacked Bidirectional LSTM layers (20 units each) were used to capture dependencies from both the beginning and end of each tweet.
 * **Dense Output Layer:** A 6-unit layer with a **Softmax activation** function to output class probabilities.
 
 
 * **Optimization:** The model was compiled using the **Adam optimizer** and **Sparse Categorical Crossentropy** loss. An **Early Stopping** callback was implemented to monitor validation accuracy and prevent overfitting.
-* **Evaluation Metrics:**
+**Evaluation Metrics:**
 * **Validation Accuracy:** Peak of ~88.60% during training.
 * **Test Accuracy:** 87.31%
 * **Confusion Matrix:** Utilized to evaluate per-class performance and identify "confusion pairs" (e.g., misclassifying "love" as "joy").
